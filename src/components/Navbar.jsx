@@ -17,8 +17,8 @@ export const Navbar = () => {
     };
 
     return (
-        <nav className="bg-white shadow-md w-full">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="bg-white shadow-md w-full font-mono">
+            <div className="max-w-8xl mx-auto px-4 sm:px-4 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex items-center">
                         <Link to="/" className="flex-shrink-0">
