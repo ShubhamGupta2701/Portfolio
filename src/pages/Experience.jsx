@@ -6,7 +6,7 @@ export const Experience = () => {
             Experience
         </div>
         <div className="px-12 py-4">
-            <ExpCard CmpName={"Pine Labs Pvt. Ltd. "} sDate = {"06-01-2024"} eDate = {"05-04-2024"} role = {"Engineer"} desc={<div className="text-base font-semibold py-4">
+            <ExpCard CmpName={"Pine Labs Pvt. Ltd. "} sDate = {"06-01-2024"} eDate = {"05-04-2024"} role = {"Engineer"} desc={<div className="text-base font-semibold py-4 gap-2">
                     <p>• Perform Unit testing on API's as well as creating API's</p>
                     <p>• Performs operational activities as defined by Configuration Management policies
                     and procedures.</p>
