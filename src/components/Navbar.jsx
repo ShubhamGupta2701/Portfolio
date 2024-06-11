@@ -13,7 +13,7 @@ export const Navbar = () => {
     };
 
     const getLinkClass = (path) => {
-        return location.pathname === path ? 'font-semibold text-xl underline' : 'font-semibold text-xl';
+        return location.pathname === path ? 'font-semibold text-xl underline px-2' : 'font-semibold text-xl px-2';
     };
 
     return (
@@ -25,7 +25,7 @@ export const Navbar = () => {
                             <img className="h-10 w-10" src={logo} alt="logo" />
                         </Link>
                     </div>
-                    <div className="hidden md:flex md:flex-grow md:justify-center space-x-4 gap-6">
+                    <div className="hidden md:flex md:flex-grow md:justify-center gap-10">
                         <Link to="/projects" className={getLinkClass('/projects')}>
                             Projects
                         </Link>
@@ -36,7 +36,7 @@ export const Navbar = () => {
                             Experience
                         </Link>
                     </div>
-                    <div className="hidden md:flex items-center space-x-4">
+                    <div className="hidden md:flex items-center gap-6">
                         <img
                             src={linkedinIcon}
                             alt="LinkedIn"
@@ -101,15 +101,17 @@ export const Navbar = () => {
             {isOpen && (
                 <div className="md:hidden">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <Link to="/projects" className={getLinkClass('/projects')}>
-                            Projects
-                        </Link>
-                        <Link to="/about" className={getLinkClass('/about')}>
-                            About
-                        </Link>
-                        <Link to="/experience" className={getLinkClass('/experience')}>
-                            Experience
-                        </Link>
+                        <div className="flex flex-col gap-6">
+                            <Link to="/projects" className={getLinkClass('/projects')}>
+                                Projects
+                            </Link>
+                            <Link to="/about" className={getLinkClass('/about')}>
+                                About
+                            </Link>
+                            <Link to="/experience" className={getLinkClass('/experience')}>
+                                Experience
+                            </Link>
+                        </div>
                         <div className="flex justify-center gap-6 mt-2">
                             <img
                                 src={linkedinIcon}
