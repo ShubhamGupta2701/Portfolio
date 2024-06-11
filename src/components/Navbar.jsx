@@ -1,13 +1,14 @@
 import React from 'react';
 import linkedinIcon from '../assets/images/Linkedin.png';
 import githubIcon from '../assets/images/github.png';
+import logo from '../assets/images/logo.png';
 import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
         <div className='font-mono flex items-center justify-between w-screen py-4 px-8 bg-white'>
             <Link to = "/" className="text-3xl font-extrabold">
-                Shubham
+                <img src = {logo} alt="logo" className='h-10 w-10'/>
             </Link>
             <div className='flex justify-center gap-8'>
                 <Link to="/projects" className='font-semibold text-xl cursor-pointer'>
