@@ -15,7 +15,7 @@ import rustIcon from "../assets/images/rust.png"
 
 export const Introduction = () => {
     return (
-    <div className="h-screen flex items-center justify-center ">
+    <div className="h-screen flex items-center justify-center font-mono ">
         <div className="text-center">
         <div className="text-4xl font-bold text-gray-500 py-3">
             Hi, I'm Shubham
