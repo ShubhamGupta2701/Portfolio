@@ -1,23 +1,24 @@
 import React from 'react';
 import linkedinIcon from '../assets/images/Linkedin.png';
 import githubIcon from '../assets/images/github.png';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
         <div className='font-mono flex items-center justify-between w-screen py-4 px-8 bg-white'>
-            <div className="text-3xl font-extrabold">
+            <Link to = "/" className="text-3xl font-extrabold">
                 Shubham
-            </div>
+            </Link>
             <div className='flex justify-center gap-8'>
-                <div className='font-semibold text-xl cursor-pointer'>
+                <Link to="/projects" className='font-semibold text-xl cursor-pointer'>
                     Projects
-                </div>
-                <div className='font-semibold text-xl cursor-pointer'>
+                </Link>
+                <Link to="/about" className='font-semibold text-xl cursor-pointer'>
                     About
-                </div>
-                <div className='font-semibold text-xl cursor-pointer'>
-                    Contact Me
-                </div>
+                </Link>
+                <Link to="/experience" className='font-semibold text-xl cursor-pointer'>
+                    Experience
+                </Link>
             </div>
             <div className='flex justify-center gap-6'>
                 <img 

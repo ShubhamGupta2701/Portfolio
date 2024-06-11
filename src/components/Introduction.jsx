@@ -26,7 +26,7 @@ export const Introduction = () => {
         <div>
             <button className="text-3xl border-4 border-black rounded-2xl px-2 py-2 mt-4 mb-4 bg-black text-white text-center" onClick={toResume}>Resume</button>
         </div>
-        <div className='flex justify-center gap-4 mb-4 mt-4'>
+        <div className='flex justify-center gap-8 mb-4 mt-4'>
             <img 
                 src={fluterIcon} 
                 alt="flutter" 
