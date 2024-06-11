@@ -1,4 +1,6 @@
 import React from 'react';
+import linkedinIcon from '../assets/images/Linkedin.png';
+import githubIcon from '../assets/images/github.png';
 
 export const Navbar = () => {
     return (
@@ -17,9 +19,19 @@ export const Navbar = () => {
                     Contact Me
                 </div>
             </div>
-            <div className='flex justify-center gap-2'>
-                <button className="bg-white text-black py-2 px-4 rounded-lg border-2 border-black text-xl font-semibold" onClick={toLinkedin}>Linked In</button>
-                <button className="bg-white text-black py-2 px-4 rounded-lg border-2 border-black text-xl font-semibold" onClick={toGithub}>Github</button>
+            <div className='flex justify-center gap-4'>
+                <img 
+                    src={linkedinIcon} 
+                    alt="LinkedIn" 
+                    className="h-10 w-10 cursor-pointer"
+                    onClick={() => window.open("https://www.linkedin.com/in/shubham-gupta-2a5128232/", '_blank')} 
+                />
+                <img 
+                    src={githubIcon} 
+                    alt="GitHub" 
+                    className="h-10 w-10 cursor-pointer"
+                    onClick={() => window.open("https://github.com/ShubhamGupta2701", '_blank')} 
+                />
             </div>
         </div>
     
