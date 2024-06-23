@@ -15,6 +15,10 @@ export const Navbar = () => {
         return location.pathname === path ? 'font-semibold text-xl underline px-2' : 'font-semibold text-xl px-2';
     };
 
+    function toResume(){
+        window.open("https://drive.google.com/file/d/1HlNYA_o8bRqKB4pBHuTJ-9hyYyKbx6-E/view?usp=sharing", '_blank');
+    }
+
     return (
         <nav className="bg-white shadow-md w-full font-mono">
             <div className="max-w-8xl mx-auto px-4 sm:px-4 lg:px-8">
@@ -104,8 +108,10 @@ export const Navbar = () => {
                             <Link to="/experience" className={getLinkClass('/experience')}>
                                 Experience
                             </Link>
-                            <button className="text-lg md:text-xl border-4 border-black rounded-2xl p-2 bg-black text-white text-center" onClick={toResume}>
-                                Resume
+                            <button
+                                className="text-lg md:text-xl border-4 border-black rounded-2xl p-2 bg-black text-white text-center"
+                                onClick={toResume}
+                            >Resume
                             </button>
                         </div>
                     </div>
