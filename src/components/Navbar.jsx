@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import linkedinIcon from '../assets/images/Linkedin.png';
-import githubIcon from '../assets/images/github.png';
 import logo from '../assets/images/logo.png';
+import resumeImg from '../assets/images/resume.png';
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -38,16 +37,10 @@ export const Navbar = () => {
                     </div>
                     <div className="hidden md:flex items-center gap-6">
                         <img
-                            src={linkedinIcon}
-                            alt="LinkedIn"
-                            className="h-10 w-10 cursor-pointer"
-                            onClick={() => window.open("https://www.linkedin.com/in/shubham-gupta-2a5128232/", '_blank')}
-                        />
-                        <img
-                            src={githubIcon}
-                            alt="GitHub"
-                            className="h-10 w-10 cursor-pointer"
-                            onClick={() => window.open("https://github.com/ShubhamGupta2701", '_blank')}
+                            src={resumeImg}
+                            alt="resume"
+                            className="h-12 w-12 cursor-pointer"
+                            onClick={() => window.open("https://drive.google.com/file/d/1HlNYA_o8bRqKB4pBHuTJ-9hyYyKbx6-E/view?usp=sharing", '_blank')}
                         />
                     </div>
                     <div className="md:hidden flex items-center">
@@ -111,20 +104,9 @@ export const Navbar = () => {
                             <Link to="/experience" className={getLinkClass('/experience')}>
                                 Experience
                             </Link>
-                        </div>
-                        <div className="flex justify-center gap-6 mt-2">
-                            <img
-                                src={linkedinIcon}
-                                alt="LinkedIn"
-                                className="h-10 w-10 cursor-pointer"
-                                onClick={() => window.open("https://www.linkedin.com/in/shubham-gupta-2a5128232/", '_blank')}
-                            />
-                            <img
-                                src={githubIcon}
-                                alt="GitHub"
-                                className="h-10 w-10 cursor-pointer"
-                                onClick={() => window.open("https://github.com/ShubhamGupta2701", '_blank')}
-                            />
+                            <button className="text-lg md:text-xl border-4 border-black rounded-2xl p-2 bg-black text-white text-center" onClick={toResume}>
+                                Resume
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -132,3 +114,4 @@ export const Navbar = () => {
         </nav>
     );
 };
+
