@@ -30,8 +30,9 @@
                 <div className="flex flex-wrap justify-center gap-4 md:gap-8 p-2">
                     <img
                     src={linkedinIcon}
-                    className="h-8 w-8 md:h-12 md:w-12 ring-2 ring-gray-400 ring-opacity-0 hover:ring-opacity-50 ring-offset-0 ring-offset-white"
+                    className="h-8 w-8 md:h-12 md:w-12"
                     alt="linkedIn"
+                    style = {{cursor:'pointer'}}
                     onClick={() =>
                         window.open(
                         "https://www.linkedin.com/in/shubham-gupta-2a5128232/",
@@ -41,8 +42,9 @@
                     />
                     <img
                     src={githubIcon}
-                    className="h-8 w-8 md:h-12 md:w-12 ring-2 ring-gray-400 ring-opacity-0 hover:ring-opacity-50 ring-offset-0 ring-offset-white"
+                    className="h-8 w-8 md:h-12 md:w-12"
                     alt="github"
+                    style = {{cursor:'pointer'}}
                     onClick={() =>
                         window.open(
                         "https://github.com/ShubhamGupta2701",
@@ -52,8 +54,9 @@
                     />
                     <img
                     src={leetcodeIcon}
-                    className="h-8 w-8 md:h-12 md:w-12 ring-2 ring-gray-400 ring-opacity-0 hover:ring-opacity-50 ring-offset-0 ring-offset-white"
+                    className="h-8 w-8 md:h-12 md:w-12"
                     alt="leetcode"
+                    style = {{cursor:'pointer'}}
                     onClick={() =>
                     window.open(
                         "https://leetcode.com/u/ShubhamG27/",
@@ -63,8 +66,9 @@
                     />
                     <img
                     src={youtubeIcon}
-                    className="h-8 w-8 md:h-12 md:w-12 ring-2 ring-gray-400 ring-opacity-0 hover:ring-opacity-50 ring-offset-0 ring-offset-white"
+                    className="h-8 w-8 md:h-12 md:w-12"
                     alt="youtube"
+                    style = {{cursor:'pointer'}}
                     onClick={() =>
                         window.open(
                         "https://www.youtube.com/channel/UCq3P0xK54t-AGkV1IFDXbMg",
