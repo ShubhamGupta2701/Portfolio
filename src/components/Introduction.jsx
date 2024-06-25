@@ -64,7 +64,7 @@
                     )
                     }
                     />
-                    <img
+                    {/* <img
                     src={youtubeIcon}
                     className="h-8 w-8 md:h-12 md:w-12"
                     alt="youtube"
@@ -75,7 +75,7 @@
                         "_blank"
                         )
                     }
-                    />
+                    /> */}
                 </div>
             </div>
             <div className="text-2xl md:text-3xl text-slate-500 font-semibold underline underline-offset-4 px-4">
