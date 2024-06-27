@@ -22,7 +22,7 @@ export const About = () => {
                             Gender - Male
                         </div>
                         <div className="text-base text-slate-600">
-                            Email - Shubham272101@gmail.com
+                            Email - shubham272101@gmail.com
                         </div>
                     </div>
                 </div>
