@@ -44,7 +44,7 @@ export const Navbar = () => {
                             src={resumeImg}
                             alt="resume"
                             className="h-12 w-12 cursor-pointer"
-                            onClick={() => window.open("https://drive.google.com/file/d/1HlNYA_o8bRqKB4pBHuTJ-9hyYyKbx6-E/view?usp=sharing", '_blank')}
+                            onClick={toResume}                       
                         />
                     </div>
                     <div className="md:hidden flex items-center">
