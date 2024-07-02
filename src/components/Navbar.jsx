@@ -16,7 +16,7 @@ export const Navbar = () => {
     };
 
     function toResume(){
-        window.open("https://drive.google.com/file/d/1d4t_v7Lm21S0tkbGfE7QjYHFIMGaj3Rh/view?usp=sharing", '_blank');
+        window.open("https://drive.google.com/file/d/1OD6YOjDBL-9-Nbbf5WehHpQX0xff66Z-/view?usp=sharing", '_blank');
     }
 
     return (
