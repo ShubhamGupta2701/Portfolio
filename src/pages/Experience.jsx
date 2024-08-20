@@ -9,8 +9,8 @@ export const Experience = () => {
             <div className="px-4 md:px-10 lg:px-20 py-4">
                 <ExpCard 
                     CmpName={"Pine Labs Pvt. Ltd. "} 
-                    sDate={"06-01-2024"} 
-                    eDate={"05-04-2024"} 
+                    sDate={"21-02-2024"} 
+                    eDate={"06-04-2024"} 
                     role={"Engineer"} 
                     desc={
                         <div className="text-base font-semibold py-4 gap-2">
