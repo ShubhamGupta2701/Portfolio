@@ -14,10 +14,10 @@ export const Experience = () => {
                     role={"SDET"} 
                     desc={
                         <div className="text-base font-semibold py-4 gap-2">
-                            <p>• Perform Regresstion testing on API's as well as creating API's</p>
-                            <p>• Ensure that Products always meet the desired quality</p>
-                            <p>• Use Playwrite to perform Automation Testing</p>
-                            <p>• Ability to manage multiple projects and clients simultaneously.</p>
+                            <p>• Conduct testing and debugging to ensure the functionality and reliability of the software.</p>
+                            <p>• Actively participate in daily stand-ups, sprint planning, and other Agile/Scrum activities.</p>
+                            <p>• Performing Automation Testing using Playwright</p>
+                            <p>• Participate in code reviews to ensure coding standards and best practices are followed.</p>
                         </div>
                     }
                 />
