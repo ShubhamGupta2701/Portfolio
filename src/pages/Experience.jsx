@@ -8,9 +8,23 @@ export const Experience = () => {
             </div>
             <div className="px-4 md:px-10 lg:px-20 py-4">
                 <ExpCard 
+                    CmpName={"Labra.io"} 
+                    sDate={"March-2025"} 
+                    eDate={"Present"} 
+                    role={"SDET"} 
+                    desc={
+                        <div className="text-base font-semibold py-4 gap-2">
+                            <p>• Perform Regresstion testing on API's as well as creating API's</p>
+                            <p>• Ensure that Products always meet the desired quality</p>
+                            <p>• Use Playwrite to perform Automation Testing</p>
+                            <p>• Ability to manage multiple projects and clients simultaneously.</p>
+                        </div>
+                    }
+                />
+                <ExpCard 
                     CmpName={"Pine Labs Pvt. Ltd. "} 
-                    sDate={"21-02-2024"} 
-                    eDate={"06-04-2024"} 
+                    sDate={"Feb-2024"} 
+                    eDate={"April-2024"} 
                     role={"Engineer"} 
                     desc={
                         <div className="text-base font-semibold py-4 gap-2">

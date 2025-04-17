@@ -28,6 +28,7 @@ export const Projects = () => {
                     image={placementPortalImg}
                     isReversed={true}
                 />
+                
             </div>
         </div>
     );

@@ -97,6 +97,12 @@ export const About = () => {
                         <div>
                             Tailwind CSS
                         </div>
+                        <div>
+                            Salesforce
+                        </div>
+                        <div>
+                            Playwrite
+                        </div>
                     </div>
                 </div>
             </div>
