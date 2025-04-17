@@ -95,9 +95,6 @@ export const About = () => {
                             Node Js
                         </div>
                         <div>
-                            Tailwind CSS
-                        </div>
-                        <div>
                             Salesforce
                         </div>
                         <div>
