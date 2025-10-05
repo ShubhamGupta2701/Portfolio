@@ -42,7 +42,7 @@ export const Introduction = () => {
           
           {/* Name & Title */}
           <div className="text-2xl md:text-3xl font-bold text-gray-300 mb-3">
-            Hi, I'm Shubham
+            Hi, I'm Shubham Gupta
           </div>
           
           <div className="text-3xl md:text-5xl font-black mb-6 bg-gradient-to-r from-purple-500 to-purple-300 bg-clip-text text-transparent">
