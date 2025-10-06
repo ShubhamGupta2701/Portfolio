@@ -47,11 +47,11 @@ export const Navbar = () => {
                         <Link to="/projects" className={getLinkClass('/projects')}>
                             Projects
                         </Link>
-                        <Link to="/about" className={getLinkClass('/about')}>
-                            About
-                        </Link>
                         <Link to="/experience" className={getLinkClass('/experience')}>
                             Experience
+                        </Link>
+                        <Link to="/about" className={getLinkClass('/about')}>
+                            About
                         </Link>
                     </div>
                     
